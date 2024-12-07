@@ -55,9 +55,42 @@ Follow the steps below to set up and run a development instance of Ghost using D
 Run the following command to download the official Ghost image from Docker Hub:  
 ```bash  
 docker pull ghost  
+```
 
 #### 2. Start a Ghost Development Instance
 To start a Ghost instance for development purposes, use the following command:
+```bash  
+docker run -d --name ghost -e NODE_ENV=development ghost  
+```
+This will:
+Start a container named `ghost`.
+Set the environment variable `NODE_ENV` to `development`.
+Make Ghost accessible on the default port `2368`.
+
+#### 3. Access Ghost
+After running the container, you can access Ghost via:
+- Frontend: `http://localhost:2368`
+- Admin Interface: `http://localhost:2368/ghost`
+
+#### 4. Customize the Port 
+To make Ghost to run on a custom port, use the following command:
+```bash  
+docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost  
+```
+
+This will:
+Map port `3001` on the host to port `2368` in the container.
+Set the `url` environment variable to `http://localhost:3001`.
+
+Now you can access Ghost at:
+- Frontend: `http://localhost:3001`
+- Admin Interface: `http://localhost:3001/ghost`
+
+#### 5. Verify the Setup
+Use the following command to check the running containers:
+```bash  
+docker ps  
+```
 
 ## Demo
 
