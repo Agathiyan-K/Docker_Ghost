@@ -19,9 +19,34 @@ Key highlights of this project include:
 Ghost provides both frontend and admin interfaces accessible via a web browser, making it an excellent choice for anyone looking to establish an online presence quickly.  
 
 
-## Learning Objectives
+## Learning Objectives  
+By completing this project, you will:  
+- Understand how to set up **Ghost** using Docker for a development environment.  
+- Learn how to configure environment variables like `NODE_ENV` and `url` to customize your Ghost instance.  
+- Gain experience mapping container ports to host ports for seamless local access.  
+- Explore the structure and features of Ghost, including its Admin interface.  
+- Understand how containerization simplifies deployment and management of web applications.  
 
-## Prerequisites to launch Ghost in Docker
+## Prerequisites  
+Before launching Ghost in Docker, ensure you have the following:  
+1. **Docker Installed**:  
+   - Download and install Docker from the [official website](https://www.docker.com/).  
+   - Verify the installation by running `docker --version` in your terminal.  
+
+2. **Basic Docker Knowledge**:  
+   - Familiarity with Docker commands like `docker run`, `docker pull`, and `docker ps`.  
+
+3. **System Requirements**:  
+   - Minimum 1 GB of free RAM and 100 MB of storage space for the Ghost instance.  
+
+4. **Internet Connection**:  
+   - Required to pull the Ghost image from Docker Hub and access online resources.  
+
+5. **Optional Tools**:  
+   - A text editor (e.g., VS Code) for editing configuration files.  
+   - A web browser to access the Ghost frontend and admin interfaces.  
+
+
 
 ## Steps:
 
