@@ -92,7 +92,9 @@ Use the following command to check the running containers:
 docker ps  
 ```
 
-## Demo
+## Project Demo  
+
+Click [here](Demo%20Video.mp4) to watch the demo.  
 
 ## Conclusion
 This project demonstrates the simplicity and efficiency of deploying **Ghost** using Docker. By containerizing Ghost, we achieved a portable and consistent setup that can be easily replicated across environments. The use of Docker makes it convenient to test, develop, and manage Ghost instances with minimal effort.  
