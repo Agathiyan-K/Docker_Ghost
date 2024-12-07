@@ -1,6 +1,8 @@
 # Ghost in Docker
 
-## About Ghost
+## Introduction - About Ghost
+
+## Learning Objectives
 
 ## Prerequisites to launch Ghost in Docker
 
@@ -8,4 +10,8 @@
 
 
 ## Demo
+
+## Conclusion
+
+## Future Improvements
 
