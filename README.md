@@ -96,6 +96,12 @@ docker ps
 
 Click [here](Demo%20Video.mp4) to watch the demo.  
 
+
+
+
+https://github.com/user-attachments/assets/b75f4e49-a3b8-430a-9dc1-defe79f205b9
+
+
 ## Conclusion
 This project demonstrates the simplicity and efficiency of deploying **Ghost** using Docker. By containerizing Ghost, we achieved a portable and consistent setup that can be easily replicated across environments. The use of Docker makes it convenient to test, develop, and manage Ghost instances with minimal effort.  
 
