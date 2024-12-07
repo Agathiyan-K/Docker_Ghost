@@ -47,9 +47,17 @@ Before launching Ghost in Docker, ensure you have the following:
    - A web browser to access the Ghost frontend and admin interfaces.  
 
 
+## Steps to Set Up Ghost in Docker  
 
-## Steps:
+Follow the steps below to set up and run a development instance of Ghost using Docker:  
 
+### 1. Pull the Ghost Docker Image  
+Run the following command to download the official Ghost image from Docker Hub:  
+```bash  
+docker pull ghost  
+
+#### 2. Start a Ghost Development Instance
+To start a Ghost instance for development purposes, use the following command:
 
 ## Demo
 
